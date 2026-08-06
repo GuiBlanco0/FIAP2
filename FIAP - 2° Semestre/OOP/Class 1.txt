@@ -5,3 +5,8 @@
 Objeto escolhido: Óculos
 Possui 2 apoios auriculares, 2 lentes de vidro, cor preta
 Auxilio visual para longe, auxilio visual para perto
+
+Anotações:
+Ser humano é objeto pois pode ser replicado e objetificado (classe, raça)
+  - Andar precisa que algumas coisas aconteçam para ser uma ação
+  - Correr é diferente de andar, pois possui diferentes restrições, tal como direção
