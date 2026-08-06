@@ -1,0 +1,7 @@
+1. Escolha um objeto físico.
+2. Identifique 3 características (Atributos) dele.
+3. Identifique 2 ações (Métodos) que ele pode realizar.
+
+Objeto escolhido: Óculos
+Possui 2 apoios auriculares, 2 lentes de vidro, cor preta
+Auxilio visual para longe, auxilio visual para perto
