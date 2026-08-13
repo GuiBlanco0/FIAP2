@@ -1,4 +1,4 @@
-readme_content = """# 📱 Meu Primeiro App em React Native & Expo! 🎉
+# 📱 Meu Primeiro App em React Native & Expo! 🎉
 
 > *"Todo grande desenvolvedor começou com um 'Hello World' ou um cartão de visitas digital."*
 
