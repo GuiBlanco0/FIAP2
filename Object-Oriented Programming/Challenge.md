@@ -1,5 +1,5 @@
-Desafio proposto pelo professor, prever a lógica por trás do código que ele utiliza para sortear um aluno. Vou anotar aqui os sorteios na tentativa de entender e ganhar um ponto Extra
-
+#Desafio proposto pelo professor, prever a lógica por trás do código que ele utiliza para sortear um aluno. Vou anotar aqui os sorteios na tentativa de entender e ganhar um ponto Extra
+```text
 [ ] [ ] [0] [ ] [0] [0] [0]
 [0] [0] [ ] [0] [0] [0] [x] -> B1
 [ ] [0] [ ] [0] [0] [ ] [ ]
@@ -16,3 +16,4 @@ ________________________________________________________________________________
 [0] [0] [ ] [0] [0] [0] [0] -> A1
 [ ] [0] [ ] [0] [0] [ ] [ ]
 [ ] [ ] [0] [0] [0] [0] [x]
+```
