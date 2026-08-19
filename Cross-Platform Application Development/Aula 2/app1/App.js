@@ -1,45 +1,66 @@
-import { StatusBar } from 'expo-status-bar';
-import { StyleSheet, Text, View, Image } from 'react-native';
+import React from 'react';
+import { View, Text, Image, StyleSheet, FlatList } from 'react-native';
+import { Cartao } from './Cartao';
+
+const pessoas = [
+  {
+    id: '1',
+    nome: 'Anderson Silva',
+    cargo: 'Aluno de Ciência da Computação',
+    foto: require('./assets/dogs.jpg'),
+  },
+  {
+    id: '2',
+    nome: 'Beatriz Lima',
+    cargo: 'Aluna de Engenharia de Software',
+    foto: require('./assets/dogs.jpg'),
+  },
+  {
+    id: '3',
+    nome: 'Rodrigo Moraes',
+    cargo: 'Professor',
+    foto: require('./assets/dogs.jpg'),
+  },
+  {
+    id: '4',
+    nome: 'Hiago Perdido',
+    cargo: 'Estudante',
+    foto: require('./assets/dogs.jpg'),
+  },
+  {
+    id: '5',
+    nome: 'Thiago Achado',
+    cargo: 'Ex estudante',
+    foto: require('./assets/dogs.jpg'),
+  }
+
+];
+
 
 export default function App() {
   return (
-    <View style={styles.container}>
-      <Image source={require('./assets/dogs.jpg')} style={styles.foto}></Image>
-      <Text style={styles.titulo}>João Azevedo Alves</Text>
-      <Text style={styles.subtitulo}> Estudante - FIAP</Text>
-      <Text style={styles.textoInfo}>{"\u2709"} gostodeprogramar@gmail.com</Text>
-      <Text style={styles.textoInfo}>{"\u260E"} 954619584</Text>
-      <StatusBar style="auto" />
-    </View>
+
+    <FlatList
+      data={pessoas}
+      keyExtractor={(item) => item.id}
+      renderItem={({ item }) => (
+        <Cartao
+          nome={item.nome}
+          cargo={item.cargo}
+          foto={item.foto}
+        />
+      )}
+      contentContainerStyle={styles.container}
+    />
+
   );
 }
 
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: '#000000',
-    alignItems: 'center',
     justifyContent: 'center',
+    alignItems: 'center',
+    backgroundColor: '#060922',
   },
-  titulo:{
-    color:"#fff",
-    fontSize: 32,
-    fontWeight: 500,
-  },
-  subtitulo:{
-    color: "#fff",
-    fontSize: 22,
-    marginTop: 8,
-    fontWeight: 200,
-  },
-  textoInfo:{
-    color: "#aaa",
-    marginTop: 8,
-  },
-  foto:{
-    width: 300,
-    height: 300,
-    borderRadius: 999,
-    marginBottom: 12,
-  }
 });
