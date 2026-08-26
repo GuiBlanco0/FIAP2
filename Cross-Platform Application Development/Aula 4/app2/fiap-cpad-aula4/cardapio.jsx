@@ -1,0 +1,58 @@
+export const cardapio = [
+  {
+    id: '1',
+    nome: 'Bruschetta',
+    descricao: 'Pão italiano, tomate, manjericão e azeite.',
+    preco: 'R$ 19',
+    foto: require('./assets/img/bruschetta.jpg'),
+  },
+  {
+    id: '2',
+    nome: 'Salada Ceasar',
+    descricao: 'Alface, queijo parmesão e croutons.',
+    preco: 'R$ 22',
+    foto: require('./assets/img/salada.jpg'),
+  },
+  {
+    id: '3',
+    nome: 'Risoto Funghi',
+    descricao: 'Arroz arbóreo, cogumelos frescos e parmesão.',
+    preco: 'R$ 42',
+    foto: require('./assets/img/risoto.jpg'),
+  },
+  {
+    id: '4',
+    nome: 'Lasanha',
+    descricao: 'Lasanha bolonhesa.',
+    preco: 'R$ 49',
+    foto: require('./assets/img/lasanha.jpg'),
+  },
+  {
+    id: '5',
+    nome: 'Bife Acebolado',
+    descricao: 'Contrafilé com cebolas e fritas.',
+    preco: 'R$ 44',
+    foto: require('./assets/img/bife.jpg'),
+  },
+  {
+    id: '6',
+    nome: 'Salmão Grelhado',
+    descricao: 'Com legumes salteados e molho de ervas.',
+    preco: 'R$ 58',
+    foto: require('./assets/img/salmao.jpg'),
+  },
+  {
+    id: '7',
+    nome: 'Mousse',
+    descricao: 'Mousse de maracujá.',
+    preco: 'R$ 17',
+    foto: require('./assets/img/mousse.jpg'),
+  },
+  {
+    id: '8',
+    nome: 'Tiramisù',
+    descricao: 'Clássico italiano com café e mascarpone.',
+    preco: 'R$ 19',
+    foto: require('./assets/img/tiramisu.jpg'),
+  },
+];
