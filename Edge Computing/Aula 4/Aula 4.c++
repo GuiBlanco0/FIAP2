@@ -14,9 +14,9 @@ const char *BROKER = "broker.hivemq.com";
 
 const int   PORTA  = 1883;
 
-const char *TOPICO     = "fiap/edge/aula4/SEUNOME/temp"; // troque SEUNOME
+const char *TOPICO     = "fiap/edge/aula4/guilherme/temp";
 
-const char *TOPICO_LED = "fiap/edge/aula4/SEUNOME/led";
+const char *TOPICO_LED = "fiap/edge/aula4/guilherme/led";
   // <-- NOVO: comando do LED
 
 // ---- Sensor e atuadores
