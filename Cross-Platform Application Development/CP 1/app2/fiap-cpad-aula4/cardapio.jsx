@@ -1,0 +1,58 @@
+export const cardapio = [
+  {
+    id: '1',
+    nome: 'Arara-Vermelha',
+    descricao: 'A arara-vermelha mede entre 90 e 95 centímetros de comprimento[21] e pesa aproximadamente entre 1,05 e 1,71 quilogramas.[22] Em algumas observações, 12 adultos apresentaram peso médio de 1 214 gramas',
+    preco: '0',
+    foto: require('./assets/img/arara.jpg'),
+  },
+  {
+    id: '2',
+    nome: 'Bipargo',
+    descricao: 'Mede entre 87 e 105 cm de comprimento, com envergadura de até 2,4 metros, e chega a pesar 9 kg quando adulto.',
+    preco: '0',
+    foto: require('./assets/img/bipargo.jpg'),
+  },
+  {
+    id: '3',
+    nome: 'Flamingo',
+    descricao: 'Tida como uma das mais graciosas e estranhas aves da avifauna mundial, o flamingo é o resultado inesperado da adaptação aos meios aquáticos que frequenta.',
+    preco: '0',
+    foto: require('./assets/img/flamingo.jpg'),
+  },
+  {
+    id: '4',
+    nome: 'Grou',
+    descricao: 'Grou-coroado-cinzento, apesar de ser uma ave africana, é muito criado em aviários como ave ornamental no Brasil, sendo criado em sítios mesmo ainda jovens.',
+    preco: '0',
+    foto: require('./assets/img/grou.jpg'),
+  },
+  {
+    id: '5',
+    nome: 'Pavao',
+    descricao: 'As fêmeas medem cerca de 86 cm de comprimento e pesam cerca de 3,4 kg, enquanto os machos medem em média 2,2 m quando incluída a sua plumagem de acasalamento (107 cm quando só o corpo) e pesam cerca de 5 kg.',
+    preco: '0',
+    foto: require('./assets/img/pavao.jpg'),
+  },
+  {
+    id: '6',
+    nome: 'Rabo de Palha',
+    descricao: 'O rabo-de-palha-de-bico-laranja adulto é uma ave esguia, principalmente branca, com 71-80 cm de comprimento incluindo as penas muito longas da cauda central, que dobram seu comprimento total.',
+    preco: '0',
+    foto: require('./assets/img/rabodepalha.jpg'),
+  },
+  {
+    id: '7',
+    nome: 'Ave Sapato',
+    descricao: 'É uma ave de cor cinzenta, com os filhotes apresentando uma plumagem acastanhada, nidifica no solo e geralmente põe dois ovos.',
+    preco: 'R$ 175',
+    foto: require('./assets/img/sapato.jpg'),
+  },
+  {
+    id: '8',
+    nome: 'Tucano',
+    descricao: 'Os tucanos são aves que correspondem à família Ramphastidae, vivem nas florestas tropicais da América Central e América do Sul.',
+    preco: 'R$ 1900',
+    foto: require('./assets/img/tucano.jpg'),
+  },
+];
