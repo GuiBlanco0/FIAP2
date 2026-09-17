@@ -74,5 +74,5 @@ friolog-node/
 
 ## Autores
 
-- Leonardo Kenji Kubo Barboza
-- *(adicionar segundo integrante da dupla)*
+- Guilherme Blanco Ribeiro
+- Julia Yamazaki
